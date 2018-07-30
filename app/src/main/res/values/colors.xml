@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="btn_focus_color">#FFFFFF</color>
+    <color name="item_select_color">#000000</color>
+    <color name="item_nomal_color">#B3FFFFFF</color><!--70%-->
+</resources>

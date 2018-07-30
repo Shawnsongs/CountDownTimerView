@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <com.jmgo.countdowntimerview.widget.CountDownView
+            android:id="@+id/countdown_timer_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:focusable="false"
+            android:textColor="@color/item_nomal_color"
+            android:textSize="120px" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/countdown_timer_hour"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="倒计时结束后自动关机"
+            android:textColor="@color/item_nomal_color"
+            android:textSize="28px" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="53px"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_end"
+                android:layout_width="290px"
+                android:layout_height="74px"
+                android:text="结束"
+                android:background="@drawable/btn_countdown_selector"
+                android:textColor="@color/text_color_selector"/>
+
+            <Button
+                android:id="@+id/btn_return"
+                android:layout_width="290px"
+                android:layout_height="74px"
+                android:layout_marginLeft="30px"
+                android:text="返回"
+                android:background="@drawable/btn_countdown_selector"
+                android:textColor="@color/text_color_selector"/>
+        </LinearLayout>
+
+
+</RelativeLayout>

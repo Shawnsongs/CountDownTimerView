@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jmgo.countdowntimerview.widget.SelectStateLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cd_hour"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:focusable="true">
+
+    <ImageView
+        android:id="@+id/prev3"
+        android:layout_width="16px"
+        android:layout_height="16px"
+        android:layout_centerVertical="true"
+        android:src="@drawable/prev_icon1"
+        android:duplicateParentState="true"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/bt_minute"
+        android:layout_width="151px"
+        android:layout_height="87px"
+        android:text="0"
+        android:layout_toRightOf="@id/prev3"
+        android:layout_marginLeft="18px"
+        android:focusable="false"
+        android:duplicateParentState="true"
+        android:textColor="@color/item_color_selector"
+        android:background="@drawable/bt_hour_bg_selector" />
+
+    <ImageView
+        android:id="@+id/prev4"
+        android:layout_width="16px"
+        android:layout_height="16px"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="18px"
+        android:layout_toRightOf="@id/bt_minute"
+        android:src="@drawable/prev_icon2"
+        android:duplicateParentState="true"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/tv_minute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28px"
+        android:layout_marginLeft="28px"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/prev4"
+        android:textColor="@color/btn_focus_color"
+        android:text="minute"
+        android:duplicateParentState="true"/>
+
+</com.jmgo.countdowntimerview.widget.SelectStateLayout>
